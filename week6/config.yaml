@@ -1,0 +1,13 @@
+file_type : csv
+dataset_name : test
+file_name : test_set
+table_name : test
+inbound_delimiter : ","
+outbound_delimiter : "|"
+skip_leading_rows : 1
+gz_file : 'data.csv.gz'
+gz_delimiter : '|'
+columns : 
+    - passband
+    - flux
+    - flux_err
